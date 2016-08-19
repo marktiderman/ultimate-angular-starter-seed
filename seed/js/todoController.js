@@ -7,11 +7,10 @@ function todoController() {
         completed: false,
       },{
         title: 'Third todo item',
-        completed: false,
+        completed: true,
       }];
 
     }
-
 
 angular
   .module('app')
